@@ -3,7 +3,7 @@
 - Arduino Physical Interactive Kinetic Robot Project
 - Materials: ESP32 / DC Motors / Servos
 - Size: 25(H)*25(W)*25(D)cm
-- ***More details of the project:*** *https://wantinghsieh.com/moving-instrumentbot/*
+- ***More details of the project (Demo Video):*** *https://wantinghsieh.com/moving-instrumentbot/*
 
 ![image](https://wantinghsieh.com/wp-content/uploads/Moving-Instrumentbot_5_web.jpg)
 
@@ -17,15 +17,16 @@ This instrumentbot is controlled remotely via a webpage running on any portable 
 
 - ### The project combines these topics:
 
-  Uploading a customized webpage, which has multiple buttons with different colors, to the server on the robot for controlling its movement
-  Controlling DC Motors with the L293D H-Bridge IC by outputting PWM with a specific duty cycle to its ENABLE pins and digital high or low value to its INPUT pins
-  The instrumentbot is curious about everything around it and wants to start its adventurous trip. However, it doesn’t know the correct direction to adventure and thus rely heavily on audience’s instructions to help it find out a suitable way to move.
+  - Uploading a customized webpage, which has multiple buttons with different colors, to the server on the robot for controlling its movement
+  - Controlling DC Motors with the L293D H-Bridge IC by outputting PWM with a specific duty cycle to its ENABLE pins and digital high or low value to its INPUT pins
+
+The instrumentbot is curious about everything around it and wants to start its adventurous trip. However, it doesn’t know the correct direction to adventure and thus rely heavily on audience’s instructions to help it find out a suitable way to move.
 
 - ### The code works like this:
 
-  Displaying a webpage on a specific IP address (the server on the robot) which can be accessed by audience’s smartphone within the same SSID
-  The robot moves forward, backward, leftward or rightward according to the command received from the audience’s mobile browser
-  The robot turns around its eye ball which is controlled by two servo motors once it stops moving
+  - Displaying a webpage on a specific IP address (the server on the robot) which can be accessed by audience’s smartphone within the same SSID
+  - The robot moves forward, backward, leftward or rightward according to the command received from the audience’s mobile browser
+  - The robot turns around its eye ball which is controlled by two servo motors once it stops moving
  
 ## ESP32 Pin Connection ([ESP32 Diagram][esp32])
 
