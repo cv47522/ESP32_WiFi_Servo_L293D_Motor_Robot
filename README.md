@@ -3,6 +3,7 @@
 - Arduino Physical Interactive Kinetic Robot Project
 - Materials: ESP32 / DC Motors / Servos
 - Size: 25(H)*25(W)*25(D)cm
+- Language: Arduino
 - ***More details of the project (Demo Video):*** *https://wantinghsieh.com/moving-instrumentbot/*
 
 ![image](https://wantinghsieh.com/wp-content/uploads/Moving-Instrumentbot_5_web.jpg)
